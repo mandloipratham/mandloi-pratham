@@ -113,7 +113,7 @@
     margin: 0;
     width: 100%;
     position:absolute;
-    top:-1000px;
+    top:-1000px; 
     opacity:0;
     transition: all 0.5 seconds ease;
     height:50vh;
@@ -187,4 +187,4 @@
   }
   
 
-}
+} 
