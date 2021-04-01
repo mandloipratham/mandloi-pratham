@@ -4,4 +4,4 @@ const menuLinks = document.querySelector('.navbar_menu');
 menu.addEventListener('click',function (){
     menuLinks.classList.toggle('is-active');
     menuLinks.classList.toggle('active');
-});;
+});

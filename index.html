@@ -20,9 +20,12 @@
     <div class="navbar__toggle"  id="mobile-menu">
     <span class="bar"></span>
     <span class="bar"></span>
-    <span class="bar"></span>
-    
-   </div>
+    <span class="bar"></span> 
+    </label>
+
+        <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+     
+    </button>
 <ul class="navbar_menu">
     <li class="navbar_item">
         <a href="/" class="navbar_links">Home</a>
