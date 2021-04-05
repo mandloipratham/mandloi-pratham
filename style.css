@@ -375,3 +375,11 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+
+.aboutme__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
