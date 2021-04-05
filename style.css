@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 .navbar {
@@ -275,7 +275,7 @@
 
 .main__btn:after {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 0;
@@ -366,7 +366,15 @@
 
 .aboutme h1 {
   background-color: #ff8177;
-  background-image: linear-gradient(to right, #ff8177 0% , #ff867a 0%, #ff8cff 21% , #f99185 52% , #cf556c 78%, #b12a5b 100%);
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8cff 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
   background-size: 100%;
   margin-bottom: 5rem;
   font-size: 2.5rem;
@@ -380,6 +388,108 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
+.aboutme__card {
+  margin: 1rem;
+  height: 525px;
+  width: 400px;
+  border-radius: 4px;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.6) 100%
+    ),
+    url("/images/pic3.jpg");
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+.aboutme__card:nth-child(2) {
+  margin: 1rem;
+  height: 525px;
+  width: 400px;
+  border-radius: 4px;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.6) 100%
+    ),
+    url("/images/pic4.jpg");
+}
+
+.aboutme h2 {
+  position: absolute;
+  top: 350px;
+  left: 30px;
+}
+
+.aboutme__card p {
+  position: absolute;
+  top: 400px;
+  left: 30px;
+}
+
+.aboutme__card button {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #f77062;
+  position: absolute;
+  top: 440px;
+  left: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.aboutme__card button:hover {
+  transform : scale(1.075);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+/* footer css */
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+ body {
+     background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+     font-family: 'Rubik', sans-serif;
+     background: #b13057;
+     height: 100 !important
+ }
+
+ .container-fluid {
+     overflow: hidden;
+     margin-top: 250px;
+     background: #262626;
+     color: #816671 !important;
+     margin-bottom: 0;
+     padding-bottom: 0  
+ }
+
+ small {
+     font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .bold-text {
+     color: #989c9e !important
+ }
+
+ .mt-55 {
+     margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ h3 {
+     font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .social {
+     font-size: 21px !important
+ }
+
+ .rights {
+     font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+ }
